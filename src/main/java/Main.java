@@ -27,6 +27,8 @@ public class Main {
 
 //        Zadanie13.zadanie13();
 
+        Zadanie5p2.zadanie5p2();
+
 
 
 
