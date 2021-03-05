@@ -17,7 +17,7 @@ public class Main {
 
 //        Zadanie8.zadanie8();
 
-        Zadanie9.zadanie9();
+//        Zadanie9.zadanie9();
 
 //        Zadanie10.zadanie10();
 
@@ -33,7 +33,7 @@ public class Main {
 
 //        Zadanie5p4.zadanie5p4();
 
-        Zada
+        Zadanie14.zadanie14();
 
 
 
