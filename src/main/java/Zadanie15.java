@@ -11,7 +11,7 @@ public class Zadanie15 {
 
         for (int i = 0; i < 10; i++) {
             int number = scanner.nextInt();
-            if (integers.contains(number)) {
+            if (integers.contains(number) && !multipleIntegers.contains(number)) {
                 multipleIntegers.add(number);
             } else {
                 integers.add(number);
