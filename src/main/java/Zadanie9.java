@@ -17,8 +17,8 @@ public class Zadanie9 {
 }
 
         // number liczba podana przez uzytkownika
-        // wykorzystac modulo number i cala czesc z dzielenia to ilosc okresow + modulo czyli pozostala ilosc gwiazdek
-        // zrobic warunek jesli czesc cala dzielenia jest niepartzysta to robimy pierwsza czesc fali a jesli parzystra to druga
+        // wykorzystac modulo number i cala czesc z dzielenia to ilosc okresow + modulo to ilosc gwiazdek ostatniego okresu
+        // zrobic warunek jesli czesc cala dzielenia jest niepartzysta to robimy pierwsza czesc fali a jesli parzysta to druga
 //        String wave1 = "*";
 //        String wave2 = " *";
 //        String wave3 = "  *";

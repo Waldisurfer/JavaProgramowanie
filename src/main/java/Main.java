@@ -33,7 +33,9 @@ public class Main {
 
 //        Zadanie5p4.zadanie5p4();
 
-        Zadanie14.zadanie14();
+//        Zadanie14.zadanie14();
+
+        Zadanie15.zadanie15();
 
 
 

@@ -10,28 +10,18 @@ public class Zadanie14 {
         String firstLetter = scanner.nextLine();
         System.out.println("Input second letter: ");
         String secondLetter = scanner.nextLine();
-        Pattern matcher = Pattern.compile("[a-zA-Z]");
+        Pattern pattern = Pattern.compile("[a-zA-Z]");
+        Matcher firstMatcher = pattern.matcher(firstLetter);
+        Matcher secondMatcher = pattern.matcher(secondLetter);
+        char firstChar = firstLetter.toLowerCase().charAt(0);
+        char secondChar = secondLetter.toLowerCase().charAt(0);
 
-        System.out.println(matcher.matcher(firstLetter));
-        System.out.println(matcher.matcher(secondLetter));
-
-        if (firstLetter.length() == 1 && secondLetter.length() == 1){
-            char firstChar = firstLetter.toLowerCase().charAt(0);
-            char secondChar = secondLetter.toLowerCase().charAt(0);
-            int asciiFirstChar = (int) firstChar;
-            int asciiSecondChar = (int) secondChar;
-
-            int asciiDistance = asciiFirstChar - asciiSecondChar;
-
-            System.out.println("The distance between " + firstChar + " and " + " is: " + Math.abs(asciiDistance));
+        if (firstMatcher.find() && secondMatcher.find() && firstLetter.length() == 1 && secondLetter.length() == 1){
+            int asciiDistance = (int) firstChar - (int) secondChar;
+            System.out.println("The distance between " + firstChar + " and " + secondChar + " is: " + Math.abs(asciiDistance));
         }
         else {
-            System.out.println("Input first and second letter of alphabet");
+            System.out.println("Wrong input");
         }
-
-
-
-
-
     }
 }
