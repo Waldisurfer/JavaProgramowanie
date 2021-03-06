@@ -41,7 +41,11 @@ public class Main {
 
 //        Zadanie16.zadanie16();
 
-        Zadanie17.zadanie17();
+//        Zadanie17.zadanie17();
+
+        Zadanie18.zadanie18();
+
+
 
 
     }
