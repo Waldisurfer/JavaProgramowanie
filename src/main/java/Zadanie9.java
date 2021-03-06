@@ -5,13 +5,31 @@ public class Zadanie9 {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Input integer: ");
         int number = scanner.nextInt();
+        String wave1 = "*\n" +
+                " *\n" +
+                "  *\n" +
+                "   *";
+        String wave2 = "*      *\n" +
+                " *    *\n" +
+                "  *  *\n" +
+                "   **";
 
-        for (int i = 1; i <= number; i++) {
-            if (i <= 4) {
-
-            }
-
+        if (number % 2 == 0){
+           int evenNumberPeriod = number / 2;
+           for (int i = 1; i <= evenNumberPeriod; i++) {
+               System.out.println(wave2 + wave2);
+           }
         }
+
+
+
+
+//        for (int i = 1; i <= number; i++) {
+//            if (i <= 4) {
+//
+//            }
+//
+//        }
 
     }
 }
