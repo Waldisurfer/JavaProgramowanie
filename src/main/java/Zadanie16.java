@@ -1,12 +1,11 @@
-import java.util.ArrayList;
-import java.util.List;
+
 import java.util.Scanner;
 
 public class Zadanie16 {
     static void zadanie16() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Input 10 integers: ");
-        int lastNumber = 0;
+        int lastNumber = 1;
         int count = 1;
         int maxCount = 0;
 

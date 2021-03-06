@@ -1,5 +1,7 @@
+import java.text.ParseException;
+
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws ParseException {
 
 //        Zadanie1.zadanie1();
 
@@ -37,8 +39,9 @@ public class Main {
 
 //        Zadanie15.zadanie15();
 
-        Zadanie16.zadanie16();
+//        Zadanie16.zadanie16();
 
+        Zadanie17.zadanie17();
 
 
     }
